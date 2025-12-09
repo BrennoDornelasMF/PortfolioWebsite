@@ -59,5 +59,144 @@ body {
 
 .menu-link:hover::after{
     width: 100%;
+}
 
+.cabecalho{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-perfil{
+    width: 350px;
+    height: 350px;
+    box-shadow:0 0 20px rgba(79, 70, 229, 0.3);
+    border-radius: 50%;
+    border: 4px solid var(--vidro);
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--primaria);
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.cabecalho-sub-titulo {
+    font-size: 1.5rem;
+    color: var(--claro);
+
+}
+
+.sobre {
+    padding: 6rem 2rem;
+
+
+}
+
+.sobre-titulo{
+    font-size: 3rem;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-caixa{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background:rgba(255,255,255,0.05);
+}
+
+.sobre-paragrafo{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--claro);
+}
+
+.projetos{
+    padding: 2rem 6rem;
+}
+
+.projetos-titulo{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: var(--claro);
+}
+
+.projetos-card:hover{
+    box-shadow: 0 10px 10px rgba(79, 70, 229, 0.3);
+    transform: translateY(-10px) scale(1.03);
+
+}
+
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap:2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projetos-card{
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.projetos-imagem{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.info-projetos{
+    margin-bottom: 5px;
+    color: var(--claro);
+}
+
+.paragrafo-projetos{
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+
+}
+.caixa-textos-projetos{
+    padding: 1.5rem;
+}
+
+.contato{
+
+}
+
+.contato-titulo{
+
+}
+
+.formulario-contato{
+
+}
+
+.grupo-form{
+
+}
+
+.campo-form{
+
+}
+
+.text-form{
+    
 }
